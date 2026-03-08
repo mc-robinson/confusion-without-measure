@@ -1,0 +1,156 @@
+# LaTeX for equations used throughout the manuscript
+
+$$CL_p = \overbrace{\underbrace{20}_{\text{numerical value}} \,\,\, \underbrace{mL \cdot min^{-1} \cdot kg^{-1}}_{\text{unit of measure}}}^{\text{quantity}}$$
+
+$$CL_p =  20 \, mL \cdot min^{-1}\cdot  kg^{-1} = 20 * \left( \frac{\text{mL}}{\text{min} \cdot \text{kg}} \right) * \left( \frac{ \text{L}}{1000 \, \text{mL}}\right) * \left( \frac{60 \, \text{min}}{\text{h}}\right) = 1.2 \, L \cdot h^{-1}\cdot  kg^{-1}$$
+
+$$\mbox{Dose [mg/kg] = Dose Concentration [mg/mL] * Dose Volume [mL/kg]}$$
+
+$$5 \, \frac{mg}{kg} *  \frac{1 \, kg}{10^6 \, mg} = 5 * 10^{-6}$$
+
+$$ 5 \, \frac{mg}{kg} = \frac{5 \, mg  * \left(\frac{1 \, kg}{10^6 \, mg} \right)}{kg} = \frac{5 * 10^{-6} \, kg}{kg} =\frac{5 \, mg}{10^6 \, mg} $$
+
+$$\text{Dose} = X \, mg \cdot kg^{-1} $$
+$$ AUC_p = Y \, ng \cdot mL^{-1} \cdot h $$
+$$CL_p =  \left( \frac{\mbox{Dose}}{AUC_p} \right) = \left( \frac{X \, mg \cdot kg^{-1}}{Y \, ng \cdot mL^{-1} \cdot  h} \right) * \left( \frac{10^6 \, ng}{mg} \right) * \left( \frac{h}{60 \,  min} \right) = \left( \frac{X* 10^6}{Y*60} \right) mL \cdot min^{-1}\cdot  kg^{-1}$$
+
+$$BPR = \frac{f_{u,p}}{f_{u,b}}, \, \text{where} \, f_{u,matrix} = \frac{C_{u,matrix}}{C_{matrix}}$$
+
+$$ C_{u,b} = C_{u,p} $$
+$$ \implies C_{b}*f_{u,b} = C_{p}*f_{u,p} $$
+$$ \implies \frac{C_{b}}{C_{p}} =  \frac{f_{u,p}}{f_{u,b}}= BPR $$
+
+$$ CL_p = \frac{\mbox{Dose}}{\mbox{AUC}_p} , \,\,\, CL_b = \frac{\mbox{Dose}}{\mbox{AUC}_b} $$
+$$ \implies \frac{CL_p}{CL_b} = \frac{\mbox{AUC}_b}{\mbox{AUC}_p}, \mbox{   since the Dose is equal in both cases}$$
+$$ \implies \frac{CL_p}{CL_b} = \frac{\mbox{AUC}_b}{\mbox{AUC}_p} = \left( \frac{\mbox{AUC}_u / f_{u,b}}{\mbox{AUC}_u / f_{u,p}}\right) =  \frac{f_{u,p}}{f_{u,b}} = BPR, \,\,\, \mbox{Since } AUC_u = AUC_{p}*f_{u,p} = AUC_{b}*f_{u,b}$$
+
+$$ CL_u = \frac{\mbox{Dose}}{AUC_u} = \frac{\mbox{Dose}}{AUC_p * f_{u,p}} = \frac{\mbox{Dose}}{AUC_p} * \frac{1}{f_{u,p}} = CL_p * \frac{1}{f_{u,p}} $$
+
+$$ \mbox{Dose} = \frac{C_{avg,ss} \cdot CL \cdot \tau}{F} $$
+
+$$\text{% extrapolated AUC} = \left( \frac{AUC_{inf} - AUC_{last}}{AUC_{inf}} \right) \times 100 $$
+
+$$ F = \frac{AUC_{oral} / Dose_{oral}}{AUC_{IV} / Dose_{IV}} =  \frac{AUC_{oral} / Dose_{oral}}{1 / CL} = CL * \frac{AUC_{oral}}{Dose_{oral}}$$,
+$$\implies \frac{CL}{F} = \frac{Dose_{oral}}{AUC_{oral}}$$
+
+$$ER = CL_b / Q_h$$
+
+$$ER = \frac{CL_b}{Q_h} = \frac{10 \, mL \cdot min^{-1}\cdot  kg^{-1}}{20.7 \, mL \cdot min^{-1}\cdot  kg^{-1}} = 0.48$$
+
+$$ F = F_a F_g F_h $$
+
+$$ F = F_a F_g F_h = F_a F_g \left (1 - ER \right) = F_a F_g \left (1 - \frac{CL_b}{Q_h}\right) $$
+
+$$ F_{max} = F_{h} = \left (1 - \frac{CL_b}{Q_h}\right), \text{ assuming } F_a F_g = 1$$
+
+$$ F_a F_g = \frac{F}{F_h} = \frac{F}{F_{max}} = \frac{F}{\left(1 - \frac{CL_b}{Q_h} \right)} $$
+
+$$C_p(t) \neq \frac{100 \, \mu mol}{V_p}$$
+
+$$C_p(t) = \frac{100 \, \mu mol}{V_d(t)}$$
+
+$$C_p(t) = \frac{\eta(t)}{V_d(t)}$$
+
+$$C_0 = \frac{100 \, \mu mol}{V_0}$$
+
+$$\eta(t) = V_{app,p}(t) * C_p(t) = V_{app,b}(t) * C_b(t) $$
+$$\implies \frac{V_{app,p}(t)}{V_{app,b}(t)} = \frac{C_b(t) }{C_p(t)} = {BPR}, \, \text{where} \, V_{app,p}(t) = V_{d}(t)$$
+
+$$\eta(t) = V_d(t) * C_p(t) = V_u(t) * C_u(t) = V_u(t) * \left( C_p(t) * f_{u,p}\right) $$
+$$\implies V_u(t) = \frac{V_d(t)}{f_{u,p}}$$
+
+$$V_0 = V_d(0) = \frac{\eta(0)}{C_p(0)} = \frac{Dose}{C_0} = \frac{1 \, mg \cdot kg^{-1}}{1716 \, ng \cdot mL^{-1}}* \left( \frac{10^{6} \, ng}{mg} \right) *  \left( \frac{1 \, L}{1000 \, mL} \right) =  0.582 \, L \cdot kg^{-1}$$
+
+$ t_{1 \slash 2} = \ln(2) * \frac{V_{ss}}{CL}, \text{where} \ln(2) \approx 0.693 $$
+
+$$CL_b = \frac{Q_h \cdot f_{u,b} \cdot CL_{int}}{Q_h + f_{u,b} \cdot CL_{int}}$$
+
+$$ t_{1 / 2 } = \ln(2) * \frac{ V_{inc} } { CL_{int,app} } \implies  CL_{int,app} =  \ln(2) * \frac{ V_{inc} } { t_{1 / 2} }$$
+
+$$ CL_{int,app} \left[\mu L \cdot  min^{-1} \cdot mg^{-1}\right] =\ln(2) * \frac{ V_{inc} [ \mu L \cdot mg^{-1}]} { t_{1 / 2} [min]} $$
+
+$$ CL_{int} \left[mL \cdot  min^{-1} \cdot \underbrace{kg^{-1}}_{\text{animal mass}} \right] \neq CL_{int,app} \left[\mu L \cdot  min^{-1} \cdot \underbrace{mg^{-1}}_{\text{protein mass}} \right] * \left( \frac{1 \, mL}{1000 \, \mu L} \right)  * \left( \frac{1E6 \, mg}{1 \, kg} \right) $$
+
+$$CL_{int} \left[mL \cdot  min^{-1} \cdot kg^{-1} \right] = \underbrace{ \left(  \frac{\text{HLM} \, CL_{int,app} \left[\mu L \cdot  min^{-1} \cdot mg^{-1} \right]}{f_{u,mics}} \right) }_{\text{unbound} \, CL_{int,app} \, \text{from HLM}} * \overbrace{ \left( \frac{1 \, mL}{1000 \, \mu L} \right) }^{\text{unit conversion}} * \underbrace{ \left( \frac{32 \, mg}{1 \, g} \right) }_{\text{mg of protein per g of liver}} * \overbrace{ \left( \frac{25.7 \, g}{1 \, kg} \right) }^{\text{g of liver per kg of animal}}$$
+
+$$ CL_{int,app} \left[\mu L \cdot  min^{-1} \cdot million \, cells^{-1}\right] =\ln(2) * \frac{ V_{inc} [ \mu L \cdot million \, cells^{-1}]} { t_{1 / 2} [min]} $$
+
+$$CL_{int} \left[mL \cdot  min^{-1} \cdot kg^{-1} \right] = \underbrace{ \left(  \frac{\text{HHEP} \, CL_{int,app} \left[\mu L \cdot  min^{-1} \cdot million \, cells^{-1} \right]}{f_{u,heps}} \right) }_{\text{unbound} \, CL_{int,app} \, \text{from HHEP}} * \overbrace{ \left( \frac{1 \, mL}{1000 \, \mu L} \right) }^{\text{unit conversion}} * \underbrace{ \left( \frac{99 \, million \, cells}{1 \, g} \right) }_{\text{Hepatocellularity (million cells per g of liver)}} * \overbrace{ \left( \frac{25.7 \, g}{1 \, kg} \right) }^{\text{g of liver per kg of animal}}$$
+
+$$CL_b = \frac{Q_h \cdot f_{u,b} \cdot CL_{int}}{Q_h + f_{u,b} \cdot CL_{int}} = \frac{Q_h \cdot \left( \frac{f_{u,p}}{BPR} \right) \cdot CL_{int}}{Q_h + \left( \frac{f_{u,p}}{BPR} \right) \cdot CL_{int}}$$
+$$\implies CL_p = BPR \, * \, CL_b = \frac{Q_h \cdot f_{u,p} \cdot CL_{int}}{Q_h + \left( \frac{f_{u,p}}{BPR} \right) \cdot CL_{int}}$$
+
+$$C_{u,assay} = C_{assay} * f_{u,assay}$$
+
+$$C_{u,p} = C_p * f_{u,p}$$
+
+$$ \text{\textit{in vivo} goal: } C_{u,p} = C_p * f_{u,p} = EC_{90,u} $$
+$$ \implies C_p = \frac{ EC_{90,u} }{ f_{u,p} } =  \frac{ EC_{90} *f_{u,assay} }{ f_{u,p} } $$
+
+$$ C \, [\mu M] = C \, [ng/mL] * \left(\frac{1000 \, mL}{1 \, L}\right) * \left(\frac{1 \, \mu M}{1000 \, nM}\right) / MW \, [g/mol]$$
+
+$$ Dose [nmol/kg] = Dose [mg/kg] * \left(  \frac{1 \, g}{1000 \, mg} \right) *  \left(  \frac{1}{MW [g/mol]} \right) *  \left(  \frac{10^9 \, nmol}{mol} \right) $$
+
+$$ Dose [\mu mol/kg] = Dose [mg/kg] * \left(  \frac{1 \, g}{1000 \, mg} \right) *  \left(  \frac{1}{MW [g/mol]} \right) *  \left(  \frac{10^6 \, \mu mol}{mol} \right) $$
+
+$$ CL [L \cdot hr^{-1}\cdot  kg^{-1} ] = CL [mL \cdot min^{-1}\cdot  kg^{-1} ] * \left( \frac{ \text{L}}{1000 \, \text{mL}}\right) * \left( \frac{60 \, \text{min}}{\text{hr}}\right) $$
+
+$$ CL [mL \cdot min^{-1}\cdot  kg^{-1} ]= CL [L \cdot hr^{-1}\cdot  kg^{-1} ]  * \left( \frac{ \text{1000 \text{mL}}}{L}\right) * \left( \frac{\text{hr}}{60 \, \text{min}}\right) $$
+
+$$CL_b = \frac{Q_h \cdot f_{u,b} \cdot CL_{int}}{Q_h + f_{u,b} \cdot CL_{int}}$$
+
+$$CL_{int} \left[mL \cdot  min^{-1} \cdot kg^{-1} \right] = \underbrace{ \left(  \frac{\text{HLM} \, CL_{int,app} \left[\mu L \cdot  min^{-1} \cdot mg^{-1} \right]}{f_{u,mics}} \right) }_{\text{unbound} \, CL_{int,app} \, \text{from HLM}} * \overbrace{ \left( \frac{1 \, mL}{1000 \, \mu L} \right) }^{\text{unit conversion}} * \underbrace{ \left( \frac{32 \, mg}{1 \, g} \right) }_{\text{mg of protein per g of liver}} * \overbrace{ \left( \frac{25.7 \, g}{1 \, kg} \right) }^{\text{g of liver per kg of animal}}$$
+
+$$CL_{int} \left[mL \cdot  min^{-1} \cdot kg^{-1} \right] = \underbrace{ \left(  \frac{\text{HHEP} \, CL_{int,app} \left[\mu L \cdot  min^{-1} \cdot million \, cells^{-1} \right]}{f_{u,heps}} \right) }_{\text{unbound} \, CL_{int,app} \, \text{from HHEP}} * \overbrace{ \left( \frac{1 \, mL}{1000 \, \mu L} \right) }^{\text{unit conversion}} * \underbrace{ \left( \frac{99 \, million \, cells}{1 \, g} \right) }_{\text{Hepatocellularity (million cells per g of liver)}} * \overbrace{ \left( \frac{25.7 \, g}{1 \, kg} \right) }^{\text{g of liver per kg of animal}}$$
+
+$$BPR = \frac{f_{u,p}}{f_{u,b}}, \, \text{where} \, f_{u,matrix} = \frac{C_{u,matrix}}{C_{matrix}}$$
+
+$$ \frac{CL_p}{CL_b} = BPR $$
+
+$$ CL_u = \frac{CL_p}{f_{u,p}} $$
+
+$$ CL_p = \frac{Dose_{IV}}{AUC_{p}}$$
+
+$$ \frac{CL}{F} = \frac{Dose_{oral}}{AUC_{oral}}$$
+
+$$ER = CL_b / Q_h$$
+
+$$ t_{1 \slash 2} = \ln(2) * \frac{V_{ss}}{CL}, \text{where} \ln(2) \approx 0.693 $$
+
+$$ V_{ss} [L/kg] = V_{ss} [mL/kg] * \left(\frac{1000 \, mL}{L}\right) $$
+
+$$ V_{ss} [mL/kg] = V_{ss} [L/kg] * \left( \frac{L}{1000 \, mL} \right) $$
+
+$$BPR = \frac{f_{u,p}}{f_{u,b}}, \, \text{where} \, f_{u,matrix} = \frac{C_{u,matrix}}{C_{matrix}}$$
+
+$$ \frac{V_p}{V_b} = {BPR}$$
+
+$$ V_u = \frac{V_{ss}}{f_{u,p}}$$
+
+$$ V_0 [L/kg] = \frac{Dose [mg/kg]}{C_0 [ng/mL]} * \left( \frac{10^{6} \, ng}{mg} \right) *  \left( \frac{1 \, L}{1000 \, mL} \right) $$
+
+$$ t_{1 \slash 2} = \ln(2) * \frac{V_{d,ss}}{CL}, \text{where} \ln(2) \approx 0.693 $$
+
+$$ F = \frac{AUC_{oral} / Dose_{oral}}{AUC_{IV} / Dose_{IV}} $$
+
+$$ F = F_a F_g F_h = F_a F_g \left (1 - ER \right) = F_a F_g \left (1 - \frac{CL_b}{Q_h}\right) $$
+
+$$ C \, [\mu M] = C \, [ng/mL] * \left(\frac{1000 \, mL}{1 \, L}\right) * \left(\frac{1 \, \mu M}{1000 \, nM}\right) / MW \, [g/mol]$$
+
+$$ C \, [ng/mL] = C \, [\mu M] * \left(\frac{1 \, L}{1000 \, mL}\right) * \left(\frac{1000 \, nM}{1 \, \mu M}\right) * MW \, [g/mol]$$
+
+$$C_{u,assay} = C_{assay} * f_{u,assay}$$
+
+$$C_{u,p} = C_p * f_{u,p}$$
+
+
+
+
+
+
+
+
+
+
+
+
