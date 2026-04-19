@@ -3,6 +3,7 @@
 ### Dose
 
 Unit Conversions:
+
 $$ Dose [nmol/kg] = Dose [mg/kg] * \left(  \frac{1 \, g}{1000 \, mg} \right) *  \left(  \frac{1}{MW [g/mol]} \right) *  \left(  \frac{10^9 \, nmol}{mol} \right) $$
 
 $$ Dose [\mu mol/kg] = Dose [mg/kg] * \left(  \frac{1 \, g}{1000 \, mg} \right) *  \left(  \frac{1}{MW [g/mol]} \right) *  \left(  \frac{10^6 \, \mu mol}{mol} \right) $$
