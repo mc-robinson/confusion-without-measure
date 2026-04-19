@@ -72,6 +72,7 @@ $$ t_{1 \slash 2} = \ln(2) * \frac{V_{d,ss}}{CL}, \text{where} \ln(2) \approx 0.
 ### Bioavailability
 
 Definitions:
+
 $$ F = \frac{AUC_{oral} / Dose_{oral}}{AUC_{IV} / Dose_{IV}} $$
 
 $$ F = F_a F_g F_h = F_a F_g \left (1 - ER \right) = F_a F_g \left (1 - \frac{CL_b}{Q_h}\right) $$
