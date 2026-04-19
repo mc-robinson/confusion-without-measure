@@ -1,4 +1,4 @@
-## Abbreviations Used in Reporting Formulations**
+## Abbreviations Used in Reporting Formulations
 
 When reporting formulations, three common abbreviations are often used:
 
