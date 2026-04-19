@@ -44,7 +44,7 @@ $$ \frac{CL}{F} = \frac{Dose_{oral}}{AUC_{oral}}$$
 
 $$ER = CL_b / Q_h$$
 
-$$ t_{1 \slash 2} = \ln(2) * \frac{V_{ss}}{CL}, \text{where} \ln(2) \approx 0.693 $$
+$$ t_{1 / 2} = \ln(2) * \frac{V_{ss}}{CL}, \text{where} \ln(2) \approx 0.693 $$
 
 ### Volume of Distribution
 
