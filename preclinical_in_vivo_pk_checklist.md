@@ -1,16 +1,16 @@
 **Dose key reporting details checklist:**
 
-	**🙾** Route of Administration
+	🙾 Route of Administration
 
 	**🙾** Information regarding salt form of compound batch used, if applicable
 
-**🙾** Information regarding solid form of compound batch used, if applicable, along with any supporting data (PLM, PXRD, etc.) used to determine amorphous/crystalline nature,
+    **🙾** Information regarding solid form of compound batch used, if applicable, along with any supporting data (PLM, PXRD, etc.) used to determine amorphous/crystalline nature,
 
 	**🙾** Dose Level with both Dose Concentration and Dose Volume
 
 	**🙾** Formulation vehicle details with clear procedure for preparation
 
-  **🙾** Formulation condition after compound dissolution (solution, suspension, etc.)
+    **🙾** Formulation condition after compound dissolution (solution, suspension, etc.)
 
 	**🙾** Fed/Fasted state of animal
 
