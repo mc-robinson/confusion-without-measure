@@ -12,9 +12,9 @@ $$ Dose [\mu mol/kg] = Dose [mg/kg] * \left(  \frac{1 g}{1000 mg} \right) *  \le
 
 Unit Conversions:
 
-$$ CL [L \cdot hr^{-1}\cdot  kg^{-1} ] = CL [mL \cdot min^{-1}\cdot  kg^{-1} ] * \left( \frac{ \text{L}}{1000 \text{mL}}\right) * \left( \frac{60 \text{min}}{\text{hr}}\right) $$
+$$ CL [L \cdot hr^{-1}\cdot  kg^{-1} ] = CL [mL \cdot min^{-1}\cdot  kg^{-1} ] * \left( \frac{ \text{L}}{1000 mL}\right) * \left( \frac{60 min}{hr}\right) $$
 
-$$ CL [mL \cdot min^{-1}\cdot  kg^{-1} ]= CL [L \cdot hr^{-1}\cdot  kg^{-1} ]  * \left( \frac{ \text{1000 \text{mL}}}{L}\right) * \left( \frac{\text{hr}}{60 \text{min}}\right) $$
+$$ CL [mL \cdot min^{-1}\cdot  kg^{-1} ]= CL [L \cdot hr^{-1}\cdot  kg^{-1} ]  * \left( \frac{ 1000 mL}{L}\right) * \left( \frac{hr}{60 min}\right) $$
 
 Scaling:
 
