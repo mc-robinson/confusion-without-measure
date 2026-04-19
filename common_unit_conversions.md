@@ -67,7 +67,7 @@ Definitions:
 
 $$ V_0 [L/kg] = \frac{Dose [mg/kg]}{C_0 [ng/mL]} * \left( \frac{10^{6} ng}{mg} \right) *  \left( \frac{1 L}{1000 mL} \right) $$
 
-$$ t_{1 \slash 2} = \ln(2) * \frac{V_{d,ss}}{CL}, \text{where} \ln(2) \approx 0.693 $$
+$$ t_{1 / 2} = \ln(2) * \frac{V_{d,ss}}{CL}, \text{where} \ln(2) \approx 0.693 $$
 
 ### Bioavailability
 
